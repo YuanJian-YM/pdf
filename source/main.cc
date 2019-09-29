@@ -46,9 +46,9 @@ int main(int argc, char *argv[])
         {
             vector<double> vecMediaBox = page.GetMediaBox();
             std::cout << "mediabox:" << std::endl;
-            for (int i = 0; i < vecMediaBox.size(); ++i)
+            for (int j = 0; j < vecMediaBox.size(); ++j)
             {
-                std::cout << vecMediaBox[i] << " ";
+                std::cout << vecMediaBox[j] << " ";
             }
             std::cout << std::endl;
         }
